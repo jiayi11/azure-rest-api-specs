@@ -1,0 +1,28 @@
+{
+  "parameters": {
+    "subscriptionId": "c80fb759-c965-4c6a-9110-9b2b2d038882",
+    "resourceGroupName": "myResourceGroup",
+    "configStoreName": "contoso",
+    "api-version": "2021-10-01-preview"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "value": [
+          {
+            "name": "myReplicaEastUs",
+            "endpoint": "https://contoso---a9c2.azconfig.io",
+            "location": "eastus",
+            "provisioningState": "Succeeded"
+          },
+          {
+            "name": "myReplicaWestEurope",
+            "endpoint": "https://contoso---k6b3.azconfig.io",
+            "location": "westeurope",
+            "provisioningState": "Creating"
+          }
+        ]
+      }
+    }
+  }
+}
